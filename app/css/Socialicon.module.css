@@ -1,6 +1,10 @@
 .icons {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    padding-right: 50px;
-    padding-left: 230px;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons a {
+    display: grid;
+    align-items: center;
 }

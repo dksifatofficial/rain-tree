@@ -2,9 +2,9 @@ import Link from "next/link";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import classes from "../css/Socialicon.module.css";
 
-function Socialicon() {
+function Socialicon({className, ...rest}) {
   return (
-    <div className={classes.icons}>
+    <div className={classes.icons} {...rest}>
       <Link
         href="https://www.facebook.com/SIFATtheDK"
         rel="noreferrer"
@@ -12,6 +12,7 @@ function Socialicon() {
       >
         <FaFacebook />
       </Link>
+
       <Link
         href="https://twitter.com/Aminulkibria"
         rel="noreferrer"
@@ -19,6 +20,7 @@ function Socialicon() {
       >
         <FaTwitter />
       </Link>
+
       <Link
         href="https://www.linkedin.com/in/aminul-kibria-996a20230"
         rel="noreferrer"
@@ -26,6 +28,7 @@ function Socialicon() {
       >
         <FaLinkedin />
       </Link>
+
       <Link
         href="https://github.com/dksifatofficial?tab=repositories"
         rel="noreferrer"

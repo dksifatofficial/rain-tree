@@ -1,0 +1,58 @@
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgb(49, 10, 110);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    justify-content: center;
+}
+.tags {
+    flex: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    justify-content: center;
+}
+.tags a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.tags a:hover {
+    background-color: rgb(34, 8, 75);
+}
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(49, 10, 110);
+    padding: 5px 10px;
+    justify-content: center;
+}
+.icons a {
+    color: #fff;
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+}
+.icons a:hover {
+    color: #b4b2b2;
+}
+.textur {
+    width: 100%;
+    text-align: center;
+    padding: 5px 10px;
+}
+.textur h4 {
+    color: white;
+}
+.textur h4 a {
+    color: #b4b2b2;
+}
+.textur h4 a:hover {
+    text-decoration: underline !important;
+}
