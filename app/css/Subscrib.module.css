@@ -1,0 +1,48 @@
+.container {
+    width: 100%;
+    height: auto;
+    background-color: rgb(202, 247, 232);
+    display: flex;
+    padding: 80px;
+    margin-bottom: 100px;
+}
+.text {
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text h1 {
+    color: rgb(144, 86, 238);
+}
+.text h4 {
+    color: rgb(73, 45, 119);
+}
+.form {
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.mail {
+    width: 300px;
+    font-size: 14px;
+    padding: 12px 16px;
+    border: 1px solid rgb(103, 16, 243);
+    border-radius: 5px;
+    outline: navy;
+}
+.mail input:hover {
+    border: 1px solid navy;
+}
+.button {
+    width: 300px;
+    padding: 12px 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(144, 86, 238);
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+}

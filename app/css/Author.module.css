@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+.box {
+    width: 50%;
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+}
+.box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.boxText {
+    overflow: hidden;
+}
+.boxText h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.boxText p {
+    color: rgb(73, 74, 75);
+}
