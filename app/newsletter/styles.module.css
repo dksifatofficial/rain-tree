@@ -1,0 +1,8 @@
+.container {
+    height: 91.5vh;
+    background-image: url(/image/bubbles_02.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}

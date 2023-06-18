@@ -1,11 +1,12 @@
-
+import Subscribe from "../components/Subscribe";
+import classes from './styles.module.css'
 
 function NewsLetter() {
   return (
-    <div>NewsLetter
-    
+    <div className={classes.container}>
+      <Subscribe />
     </div>
-  )
+  );
 }
 
-export default NewsLetter
+export default NewsLetter;

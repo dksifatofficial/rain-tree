@@ -1,10 +1,9 @@
 .container {
     width: 100%;
     height: auto;
-    background-color: rgb(202, 247, 232);
+    background-color: rgba(202, 247, 232, 0.514);
     display: flex;
     padding: 80px;
-    margin-bottom: 100px;
 }
 .text {
     width: 50%;
