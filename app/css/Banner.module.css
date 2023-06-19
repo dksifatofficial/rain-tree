@@ -1,5 +1,5 @@
 .container {
-    height: 91.5vh;
+    height: 400px;
     background-image: url(/image/1.jpg) ;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -70,4 +70,13 @@
 }
 .box .button:active {
     transform: translateY(4px);
+}
+
+@media (min-width: 1024px) {
+
+}
+@media (min-width: 1280px) {
+    .container {
+        height: 91.5vh;
+    }
 }
