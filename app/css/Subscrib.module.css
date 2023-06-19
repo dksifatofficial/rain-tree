@@ -3,10 +3,11 @@
     height: auto;
     background-color: rgba(202, 247, 232, 0.514);
     display: flex;
+    flex-wrap: wrap;
     padding: 80px;
 }
 .text {
-    width: 50%;
+    width: 100%;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -19,7 +20,8 @@
     color: rgb(73, 45, 119);
 }
 .form {
-    width: 50%;
+    padding-top: 50px;
+    width: 100%;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -44,4 +46,16 @@
     color: white;
     margin-top: 15px;
     font-size: 17px;
+}
+@media (min-width: 1024px) {
+    .text {
+        width: 50%;
+    }
+    .form {
+        padding-top: 0;
+        width: 50%;
+    }
+}
+@media (min-width: 1280px) {
+    
 }

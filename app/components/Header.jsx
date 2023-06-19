@@ -31,7 +31,7 @@ function Header() {
   return (
     <div className={`${classes.header} ${isScrolled ? classes.scrolled : ""}`}>
       <div className={classes.logo}>
-        <FaHome className={classes.homeLogo} />
+      <Link className={classes.homeLogo} href="/"><FaHome  /></Link>
         <Link href="/">Rain Tree</Link>
       </div>
       <div className={classes.menu}>

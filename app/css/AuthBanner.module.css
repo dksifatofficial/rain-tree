@@ -3,7 +3,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 91.5vh;
+    height: 250px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -19,8 +19,8 @@
 }
 .text h1 {
     font-family:sans-serif;
-    font-size: 45px;
-    letter-spacing: 10px;
+    font-size: 25px;
+    /* letter-spacing: 10px; */
     color: #312349;
     font-weight: bold;
     text-shadow: 4px 3px 10px rgb(219, 217, 217);
@@ -35,4 +35,22 @@
     font-weight: 400;
     letter-spacing: 1px;
     text-shadow: 3px 3px 9px black;
+}
+@media (min-width: 1024px) {
+    .container {
+        height: 350px;
+    }
+    .text h1 {
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+}
+@media (min-width: 1280px) {
+    .container {
+        height: 91.5vh;
+    }
+    .text h1 {
+        font-size: 45px;
+        letter-spacing: 10px;
+    }
 }

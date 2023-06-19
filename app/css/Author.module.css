@@ -6,7 +6,7 @@
     margin: 100px 0;
 }
 .box {
-    width: 50%;
+    width: 90%;
     display: flex;
     column-gap: 50px;
     align-items: center;
@@ -20,10 +20,24 @@
     overflow: hidden;
 }
 .boxText h1 {
+    font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 15px;
     font-weight: 600;
 }
 .boxText p {
     color: rgb(73, 74, 75);
+}
+@media (min-width: 1024px) {
+    .box {
+        width: 80%;
+    }
+    .boxText h1 {
+        font-size: 30px;
+    }
+}
+@media (min-width: 1280px) {
+    .box {
+        width: 50%;
+    }
 }

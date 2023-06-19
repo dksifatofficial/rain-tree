@@ -18,9 +18,10 @@
   backdrop-filter: blur(10px);
   box-shadow: 1px 1px 5px rgba(8, 3, 3, 0.11);
 }
-.homeLogo {
+.logo .homeLogo {
   font-size: 20px;
   color: #312349;
+  display: block;
 }
 .logo {
   width: 5%;
@@ -55,7 +56,7 @@
   .logo {
     width: 20%;
   }
-  .homeLogo {
+  .logo .homeLogo {
     font-size: 25px;
     color: #312349;
   }
@@ -75,7 +76,7 @@
     width: 30%;
     padding-left: 50px;
   }
-  .homeLogo {
+  .logo .homeLogo {
     display: none;
   }
   .logo a {
