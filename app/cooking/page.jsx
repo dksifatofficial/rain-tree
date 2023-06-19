@@ -1,7 +1,7 @@
 import Image from "next/image";
 import ProDetails from "../components/ProDetails";
 import classes from './styles.module.css'
-import BackButton from "../components/BackButton";
+// import BackButton from "../components/BackButton";
 
 function Cooking() {
   return (
