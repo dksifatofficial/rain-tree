@@ -1,0 +1,15 @@
+.back {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    background: transparent;
+}
+.back button {
+    background: transparent;
+    border: none;
+    font-size: 17px;
+    backdrop-filter: blur(1.5px);
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: rgb(49, 6, 90);
+}
