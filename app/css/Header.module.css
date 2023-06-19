@@ -35,7 +35,7 @@
 }
 .menu {
   padding: 0 50px;
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: space-around;
 }
@@ -45,7 +45,7 @@
   color: #312349;
 }
 .icons {
-  width: 10%;
+  width: 0%;
   padding-left: 250px;
   padding-right: 50px;
   display: none;
