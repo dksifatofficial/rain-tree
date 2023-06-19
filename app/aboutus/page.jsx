@@ -1,5 +1,5 @@
 import { FaHandshake, FaList, FaHandHoldingHeart, FaIcons, FaBezierCurve, FaClipboardCheck } from "react-icons/fa";
-import Box from "./box";
+import Box from "../components/Box";
 import classes from "./styles.module.css";
 
 function AboutUs() {

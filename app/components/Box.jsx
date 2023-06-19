@@ -1,4 +1,4 @@
-import classes from "./styles.module.css";
+import classes from "../aboutus/styles.module.css";
 
 function Box({ children, className }) {
   return (
