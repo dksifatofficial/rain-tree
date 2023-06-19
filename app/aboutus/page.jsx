@@ -8,8 +8,8 @@ function AboutUs() {
       <div className={classes.image}>
       </div>
       <div className={classes.container2}>
-        <div className={classes.boxs} >
-          <Box>
+        <div className={classes.boxs}>
+          <Box className={classes.box1}>
             <FaHandshake className={classes.icon} />
             <h2>Finance</h2>
             <p>
@@ -20,7 +20,7 @@ function AboutUs() {
             </p>
           </Box>
 
-          <Box>
+          <Box className={classes.box2}>
             <FaList className={classes.icon} />
             <h2>Web Design</h2>
             <p>
@@ -31,7 +31,7 @@ function AboutUs() {
             </p>
           </Box>
 
-          <Box>
+          <Box className={classes.box3}>
             <FaHandHoldingHeart className={classes.icon} />
             <h2>Consulting</h2>
             <p>
@@ -42,7 +42,7 @@ function AboutUs() {
             </p>
           </Box>
 
-          <Box>
+          <Box className={classes.box4}>
             <FaIcons className={classes.icon} />
             <h2>Strategy</h2>
             <p>
@@ -53,7 +53,7 @@ function AboutUs() {
             </p>
           </Box>
 
-          <Box>
+          <Box className={classes.box5}>
             <FaBezierCurve className={classes.icon} />
             <h2>Clean Code</h2>
             <p>
@@ -64,7 +64,7 @@ function AboutUs() {
             </p>
           </Box>
 
-          <Box>
+          <Box className={classes.box6}>
             <FaClipboardCheck className={classes.icon} />
             <h2>Backup</h2>
             <p>

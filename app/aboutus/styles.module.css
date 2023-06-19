@@ -29,77 +29,38 @@
   row-gap: 20px;
   column-gap: 20px;
 }
-.text {
-  position: absolute;
-  inset: 2px;
-  background: #3567d4;
-  padding: 50px 40px;
-  border-radius: 8px;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.text .icon {
+.icon {
   font-size: 50px;
   color: blueviolet;
   background-color: #fff;
   padding: 10px;
   border-radius: 100%;
 }
-.text h2 {
-  margin-top: 10px;
+.box1 {
+  background: rgb(89, 179, 48);
+}
+.box2 {
+  background: #fff;
+}
+.box2 .icon {
   color: #fff;
+  background-color: #000;
 }
-.text p {
-  margin-top: 20px;
-  text-align: justify;
-  color: #fff;
+.box2 h2 {
+  color: #000;
 }
-.box {
-  width: 350px;
-  height: 350px;
-  background: #000;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
+.box2 p {
+  color: #000
 }
-.box::before {
-  content: "";
-  z-index: 1;
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 350px;
-  height: 350px;
-  transform-origin: bottom right;
-  background: linear-gradient(0deg, transparent, #58d797, #58d797);
-  animation: animate 6s linear infinite;
+.box3 {
+  background: #3567d4;
 }
-.box::after {
-  content: "";
-  z-index: 1;
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 350px;
-  height: 350px;
-  transform-origin: bottom right;
-  background: linear-gradient(0deg, transparent, #58d797, #58d797);
-  animation: animate 6s linear infinite;
-  animation-delay: -3s;
+.box4 {
+  background: #a529b1;
 }
-@keyframes animate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.box5 {
+  background: #979921;
+}
+.box6 {
+  background: #25a9b3;
 }
