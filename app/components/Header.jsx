@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 // import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import { FaHome } from "react-icons/fa";
 import classes from "../css/Header.module.css";
 import Socialicon from "./Socialicon";
-import { useEffect, useState } from "react";
 
 function Header() {
-  
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -31,6 +31,7 @@ function Header() {
   return (
     <div className={`${classes.header} ${isScrolled ? classes.scrolled : ""}`}>
       <div className={classes.logo}>
+        <FaHome className={classes.homeLogo} />
         <Link href="/">Rain Tree</Link>
       </div>
       <div className={classes.menu}>
