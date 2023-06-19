@@ -6,7 +6,7 @@ import BackButton from "../components/BackButton";
 function Cooking() {
   return (
     <div className={classes.container}>
-        <BackButton />
+        {/* <BackButton /> */}
         <Image className={classes.img1} src="/image/2_2.jpg" alt="" height="300" width="500" />
       <ProDetails>
         <h1>Cooking Recipes Anytime And Anywhere</h1>
