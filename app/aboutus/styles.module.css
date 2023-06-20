@@ -19,7 +19,7 @@
 }
 .boxs {
   margin-top: -50px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   width: 90%;
   height: auto;
   background-color: transparent;
@@ -40,7 +40,7 @@
   background-color: rgb(89, 179, 48) !important;
 }
 .box2 {
-  background-color: #fff;
+  background-color: #fff !important;
 }
 .box2 .icon {
   color: #fff;
@@ -53,16 +53,16 @@
   color: #000
 }
 .box3 {
-  background-color: #3567d4;
+  background-color: #3567d4 !important;
 }
 .box4 {
-  background-color: #a529b1;
+  background-color: #a529b1 !important;
 }
 .box5 {
-  background-color: #979921;
+  background-color: #979921 !important;
 }
 .box6 {
-  background-color: #25a9b3;
+  background-color: #25a9b3 !important;
 }
 
 @media (min-width: 1024px) {
