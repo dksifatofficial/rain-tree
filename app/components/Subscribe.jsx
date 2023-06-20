@@ -8,7 +8,7 @@ function Subscribe() {
         <h4>Get the latest posts delivered right to your inbox.</h4>
       </div>
       <div className={classes.form}>
-        <form action="/action-page.php" autocomplete="on">
+        <form action="/action-page.php" autoComplete="on">
           <input
             className={classes.mail}
             type="email"
