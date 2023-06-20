@@ -1,6 +1,7 @@
 .container {
-  height: 91.5vh;
+  height: 280px;
   background-image: url(/image/bubbles.jpg);
+  background-repeat: no-repeat;
   background-position: cover;
   background-size: 100%;
   display: flex;
@@ -64,4 +65,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    height: 91.5vh;
+  }
+}
+@media (min-width: 1280px) {
 }
