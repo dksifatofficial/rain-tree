@@ -54,6 +54,8 @@
   }
 }
 .text {
+  width: 346px;
+  height: 196px;
   position: absolute;
   inset: 2px;
   background: #929294;
