@@ -36,10 +36,10 @@ function Header() {
       </div>
       <div className={classes.menu}>
         <Link href="/author">Author</Link>
+        <Link href="/aboutus">About Us</Link>
         <Link href="/newsletter">Newsletter</Link>
         <Link href="/news">News section</Link>
         <Link href="/gallery">Gallery</Link>
-        <Link href="/aboutus">About Us</Link>
       </div>
       <div className={classes.icons}>
         <Socialicon />
