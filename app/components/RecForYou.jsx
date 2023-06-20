@@ -13,7 +13,7 @@ function RecForYou() {
 
       <div className={classes.container2}>
         <TopicBox>
-          <Link href="/cooking.html" target="_blank">
+          <Link href="/cooking" target="_blank">
             <Image
               src="/image/duble-sofa.jpg"
               alt="food"
@@ -30,7 +30,7 @@ function RecForYou() {
         </TopicBox>
 
         <TopicBox>
-          <Link href="/cooking.html" target="_blank">
+          <Link href="/cooking" target="_blank">
             <Image
               src="/image/tag-beauty.webp"
               alt="food"
@@ -47,7 +47,7 @@ function RecForYou() {
         </TopicBox>
 
         <TopicBox>
-          <Link href="/cooking.html" target="_blank">
+          <Link href="/cooking" target="_blank">
             <Image
               src="/image/type-righter.jpg"
               alt="food"
