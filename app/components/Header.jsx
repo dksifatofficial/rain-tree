@@ -9,7 +9,6 @@ import Socialicon from "./Socialicon";
 function Header() {
   const pathname = usePathname();
 
-
   return (
     <div className={classes.header}>
       <div className={classes.logo}>
@@ -19,16 +18,30 @@ function Header() {
         <Link href="/">Rain Tree</Link>
       </div>
       <div className={classes.menu}>
-        <Link
-          href="/author"
-          className={pathname == "/author" ? "active": ""}
-        >
+        <Link href="/author" className={pathname == "/author" ? "active" : ""}>
           Author
         </Link>
-        <Link href="/aboutus">About Us</Link>
-        <Link href="/newsletter">Newsletter</Link>
-        <Link href="/news">News section</Link>
-        <Link href="/gallery">Gallery</Link>
+        <Link
+          href="/aboutus"
+          className={pathname == "/aboutus" ? "active" : ""}
+        >
+          About Us
+        </Link>
+        <Link
+          href="/newsletter"
+          className={pathname == "/newsletter" ? "active" : ""}
+        >
+          Newsletter
+        </Link>
+        <Link href="/news" className={pathname == "/news" ? "active" : ""}>
+          News section
+        </Link>
+        <Link
+          href="/gallery"
+          className={pathname == "/gallery" ? "active" : ""}
+        >
+          Gallery
+        </Link>
       </div>
       <div className={classes.icons}>
         <Socialicon />

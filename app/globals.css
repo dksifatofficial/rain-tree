@@ -116,5 +116,6 @@ h6 {
 } */
 
 .active {
-  color: rgb(94, 23, 207) !important;
+  color: #fff !important;
+  background-color: #312349 !important;
 }
