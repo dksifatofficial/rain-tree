@@ -18,8 +18,8 @@
   justify-content: center;
 }
 .boxs {
-  margin-top: -150px;
-  margin-bottom: 120px;
+  margin-top: -50px;
+  margin-bottom: 50px;
   width: 90%;
   height: auto;
   background-color: transparent;
@@ -37,7 +37,7 @@
   border-radius: 100%;
 }
 .box1 {
-  background-color: rgb(89, 179, 48);
+  background-color: rgb(89, 179, 48) !important;
 }
 .box2 {
   background-color: #fff;
@@ -69,6 +69,9 @@
   .image {
     height: 550px;;
   }
+  .boxs {
+    margin-top: -150px;
+    margin-bottom: 120px;
 }
 @media (min-width: 1280px) {
 }
